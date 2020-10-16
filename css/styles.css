@@ -1,3 +1,51 @@
 body {
-  background-color: blue;
+  margin: 0px;
+  text-align: center;
+}
+.myName {
+  font-family: "Architects Daughter", cursive;
+  font-size: 500%;
+}
+.em {
+  text-decoration: underline;
+}
+.description {
+  font-family: "Staatliches", cursive;
+  font-size: 150%;
+}
+.top {
+  background-color: aquamarine;
+  font-weight: bolder;
+  position: relative;
+  padding: 100px;
+}
+h1 {
+  margin-top: 0px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 600px;
+  top: 200px;
+}
+.top-cloud {
+  position: absolute;
+  right: 600px;
+  top: 50px;
+}
+
+.profile-img {
+  max-width: 300px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 20px;
+}
+.skills-row {
+  max-width: 300px;
+  max-height: 300px;
+}
+.skills {
+  max-width: 300px;
+  max-height: 300px;
 }
