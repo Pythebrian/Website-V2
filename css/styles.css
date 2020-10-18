@@ -37,15 +37,42 @@ hr {
   border-style: none;
   border-top-style: dotted;
   border-color: grey;
-  border-width: 6px;
-  width: 20%;
+  border-width: 8px;
+  width: 5%;
   text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .profile-img {
-  width: 15%;
-  text-align: left;
+  width: 250px;
+  float: left;
+  margin-left: 60px;
+  margin-top: 30px;
 }
-#profile-description {
+.profile-text {
+  display: inline-block;
+  margin-top: 50px;
+}
+.profile {
+  width: 50%;
+  margin: auto;
+  height: 300px;
+}
+.skill-text {
+  display: inline-block;
+  margin-top: 80px;
+}
+#skill-title {
+  font-size: 30px;
   font-weight: bold;
   font-family: sans-serif;
+  color: aquamarine;
+}
+.vader {
+  display: inline-block;
+  margin-top: 80px;
+}
+.alpaca {
+  max-width: 250px;
+  margin-top: 30px;
 }
