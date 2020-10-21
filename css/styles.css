@@ -80,8 +80,6 @@ hr {
   width: 250px;
   float: right;
 }
-.contact-me {
-}
 .bottom-container {
   margin-top: 60px;
 }
@@ -92,46 +90,32 @@ hr {
   font-family: sans-serif;
   font-weight: bold;
 }
-/*
-.btn {
-  background: #55e0c4;
-  background-image: -webkit-linear-gradient(top, #55e0c4, #0068a8);
-  background-image: -moz-linear-gradient(top, #55e0c4, #0068a8);
-  background-image: -ms-linear-gradient(top, #55e0c4, #0068a8);
-  background-image: -o-linear-gradient(top, #55e0c4, #0068a8);
-  background-image: linear-gradient(to bottom, #55e0c4, #0068a8);
-  -webkit-border-radius: 15;
-  -moz-border-radius: 15;
-  border-radius: 15px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #7fffd4;
-  background-image: -webkit-linear-gradient(top, #7fffd4, #2d77a8);
-  background-image: -moz-linear-gradient(top, #7fffd4, #2d77a8);
-  background-image: -ms-linear-gradient(top, #7fffd4, #2d77a8);
-  background-image: -o-linear-gradient(top, #7fffd4, #2d77a8);
-  background-image: linear-gradient(to bottom, #7fffd4, #2d77a8);
-  text-decoration: none;
-}
-*/
 .fa-envelope {
   color: dodgerblue;
   font-size: 110px;
   margin-right: 50px;
 }
 .fa-envelope:hover {
-  color: RoyalBlue;
+  color: white;
 }
 .fa-linkedin {
   color: dodgerblue;
   font-size: 100px;
+  text-align: center;
 }
 .fa-linkedin:hover {
-  color: RoyalBlue;
+  color: white;
+}
+.icon-background {
+  display: inline-block;
+  background-color: rgb(43, 61, 226);
+  width: 200px;
+  height: 120px;
+  margin: auto;
+  text-align: center;
+  background-color: black;
+  border-radius: 30px;
+}
+.icon-background:hover {
+  color: dodgerblue;
 }
