@@ -93,15 +93,19 @@ hr {
 .fa-envelope {
   color: dodgerblue;
   font-size: 110px;
-  margin-right: 50px;
+  margin-top: -55px;
+  position: relative;
+  top: 50%;
 }
 .fa-envelope:hover {
   color: white;
 }
 .fa-linkedin {
+  position: relative;
   color: dodgerblue;
   font-size: 100px;
-  text-align: center;
+  margin-top: -50px;
+  top: 50%;
 }
 .fa-linkedin:hover {
   color: white;
@@ -109,13 +113,11 @@ hr {
 .icon-background {
   display: inline-block;
   background-color: rgb(43, 61, 226);
-  width: 200px;
-  height: 120px;
-  margin: auto;
-  text-align: center;
+  width: 230px;
+  height: 150px;
   background-color: black;
   border-radius: 30px;
-}
-.icon-background:hover {
-  color: dodgerblue;
+  vertical-align: top;
+  margin-left: 80px;
+  margin-right: 80px;
 }
