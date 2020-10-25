@@ -57,10 +57,13 @@ hr {
   width: 50%;
   margin: auto;
   height: 300px;
+  margin-top: 100px;
 }
 .skill-text {
   display: inline-block;
-  margin-top: 80px;
+  position: relative;
+  left: 250px;
+  bottom: 270px;
 }
 .skill-title {
   font-size: 40px;
@@ -70,7 +73,7 @@ hr {
 }
 .vader {
   display: inline-block;
-  margin-top: 80px;
+  margin-top: 0px;
 }
 .alpaca {
   max-width: 250px;
